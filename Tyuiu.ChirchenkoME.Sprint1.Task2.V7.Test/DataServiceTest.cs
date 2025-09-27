@@ -10,9 +10,9 @@ namespace Tyuiu.ChirchenkoME.Sprint1.Task2.V7.Test
         public void ValidExpression()
         {
             DataService ds = new DataService();
-            int radius = 25;
+            int radius = 6;
             var res = ds.CalculateSquareCircle(radius);
-            Assert.AreEqual(1962.5, res);
+            Assert.AreEqual(113.097, res);
         }
     }
 }

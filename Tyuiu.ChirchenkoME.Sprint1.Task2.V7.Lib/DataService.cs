@@ -9,8 +9,7 @@ namespace Tyuiu.ChirchenkoME.Sprint1.Task2.V7.Lib
         public double CalculateSquareCircle(int value)
         {
             double radius = value;
-            double pi = 3.14;
-            double area = pi * radius * radius;
+            double area = Math.PI * radius * radius;
             return Math.Round(area, 3);
         }
     }
