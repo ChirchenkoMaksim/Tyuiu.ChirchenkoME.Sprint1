@@ -1,6 +1,5 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Tyuiu.ChirchenkoME.Sprint1.Task2.V7.Lib;
-
 namespace Tyuiu.ChirchenkoME.Sprint1.Task2.V7.Test
 {
     [TestClass]

@@ -1,5 +1,4 @@
 ﻿using Tyuiu.ChirchenkoME.Sprint1.Task2.V7.Lib;
-
 namespace Tyuiu.ChirchenkoME.Sprint1.Task2.V7
 {
     internal class Program
