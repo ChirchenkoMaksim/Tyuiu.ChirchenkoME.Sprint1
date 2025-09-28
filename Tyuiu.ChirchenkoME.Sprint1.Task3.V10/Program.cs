@@ -18,8 +18,8 @@ namespace Tyuiu.ChirchenkoME.Sprint1.Task3.V10
             Console.WriteLine("* Выполнил: Чирченко М. Е. | ИСПб-25-1                                   *");
             Console.WriteLine("**************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                               *");
-            Console.WriteLine("* аписать программу, которая преобразует введенное с клавиатуры          *");
-            Console.WriteLine("* дробное число в денежный формат.*                                      *");
+            Console.WriteLine("* Написать программу, которая преобразует введенное с клавиатуры         *");
+            Console.WriteLine("* дробное число в денежный формат.                                       *");
             Console.WriteLine("**************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                       *");
             Console.WriteLine("**************************************************************************");
@@ -31,7 +31,6 @@ namespace Tyuiu.ChirchenkoME.Sprint1.Task3.V10
             {
                 Console.Write("Введите дробное число -> ");
                 string input = Console.ReadLine();
-
 
                 if (double.TryParse(input, NumberStyles.Any, CultureInfo.GetCultureInfo("ru-RU"), out number) ||
                     double.TryParse(input, NumberStyles.Any, CultureInfo.InvariantCulture, out number))
